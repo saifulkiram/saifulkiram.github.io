@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Saiful Kiram</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    html,
+    body {
+        height: 100%;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .full-height {
+        height: 3000px;
+    }
+
+    #container {
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+    }
+
+    #navigation {
+        position: fixed;
+        width: 100%;
+    }
+
+    .navbar-custom {
+        background-color: #112d4e;
+        background-image: none;
+        background-repeat: no-repeat;
+    }
+
+    #mainpage {
+        background-color: coral;
+        width: 100%;
+        height: 550px;
+        flex-grow: 3;
+        display: flex;
+    }
+
+    #foto {
+        flex-grow: 1;
+        background-color: #112d4e;
+    }
+
+    #background {
+        flex-grow: 2;
+        background-color: #dbe2ef;
+    }
+
+    #isibackground {
+        width: 100%;
+        height: 200px;
+        padding-top: 300px;
+        padding-left: 10%;
+    }
+
+    #education {
+        background-color: #3f72af;
+        width: 100%;
+        /* height: 300px; */
+        flex-grow: 3;
+    }
+
+    #isieducation {
+        padding-left: 400px;
+        padding-top: 70px;
+    }
+
+    #experience {
+        background-color: #f9f7f7;
+        width: 100%;
+        flex-grow: 3;
+    }
+
+    #isiexperience {
+        padding-left: 400px;
+        padding-top: 70px;
+    }
+
+    #portofolio {
+        background-color: #c9d6df;
+        width: 100%;
+        flex-grow: 4;
+    }
+
+    #isiportofolio {
+        padding-left: 400px;
+        padding-top: 70px;
+    }
+
+    #skill {
+        background-color: #52616b;
+        width: 100%;
+        flex-grow: 3;
+    }
+    #isiskill {
+        padding-left: 400px;
+        padding-top: 70px;
+    }
+    .checked {
+        color: #c9d6df;
+    }
+
+    #footer {
+        background-color: #1e2022;
+        width: 100%;
+        flex-grow: 0.2;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<body>
+    <div class="full-height" id="container">
+        <div id="navigation">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-custom ">
+                <a class="navbar-brand" href="#mainpage">HOME</a>
+                <div class="collapse navbar-collapse ml-auto h5" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#education"
+                                style="font-family: 'Ubuntu', sans-serif;">Education</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#experience" style="font-family: 'Ubuntu', sans-serif;">Experience
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#portofolio"
+                                style="font-family: 'Ubuntu', sans-serif;">Portofolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#skill" style="font-family: 'Ubuntu', sans-serif;">Skill</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#footer" style="font-family: 'Ubuntu', sans-serif;">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="mainpage">
+            <div id="foto"></div>
+            <div id="background">
+                <div id="isibackground">
+                    <h1>Hello, i'm</h1>
+                    <h1 style="font-weight: 800; font-size: 100px;">Saiful Kiram.</h1>
+                    <h1>Web & Mobile Developer</h1>
+                </div>
+            </div>
+        </div>
+        <div id="education">
+            <div id="isieducation">
+                <h1 style="color: #dbe2ef; font-weight: 600; font-style: italic; ">EDUCATION</h1>
+                <h5 style="color: #dbe2ef;">What i've learned</h5>
+                <hr style="width: 80%; border-width: 5px;color: #c9d6df;">
+                <br>
+                <br>
+                <h3 style="font-weight: 400; color: #c9d6df;">2010 - 2015 &emsp; Faculty of Social and Political Sience,
+                    University of Indonesia</h3>
+                <h4 style="color:#c9d6df">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Major study on Social Welfare
+                    Sience</h4>
+            </div>
+        </div>
+        <div id="experience">
+            <div id="isiexperience">
+                <h1 style="color:#112d4e; font-weight: 600; font-style: italic; ">Experience</h1>
+                <h4 style="color: #112d4e;">Where i've worked</h4>
+                <hr style="width: 80%; border-width: 5px;color: #112d4e;">
+                <br>
+                <br>
+                <h3 style="font-weight: 400; color: #112d4e;">2017 - 2018 &emsp; PT. Trakindo Utama</h3>
+                <h4 style="color:#112d4e">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Talent Acquisition</h4>
+                <br>
+                <h3 style="font-weight: 400; color: #112d4e;">2016 - 2017 &emsp; PT. Anugerah Pharmindo Lestari</h3>
+                <h4 style="color:#112d4e">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Employee Engagement &
+                    Compliance Supervisor</h4>
+                <br>
+                <h3 style="font-weight: 400; color: #112d4e;">2015 - 2016 &emsp; PT. Anugerah Pharmindo Lestari</h3>
+                <h4 style="color:#112d4e">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Management Trainee</h4>
+            </div>
+        </div>
+        <div id="portofolio">
+            <div id="isiportofolio">
+                <h1 style="color: #3f72af; font-weight: 600; font-style: italic; ">PORTOFOLIO</h1>
+                <h5 style="color:  #3f72af;">What i've done</h5>
+                <hr style="width: 80%; border-width: 5px;color: #c9d6df;">
+            </div>
+        </div>
+        <div id="skill">
+            <div id="isiskill">
+                <h1 style="color: #c9d6df; font-weight: 600; font-style: italic; ">SKILL</h1>
+                <h5 style="color: #c9d6df;">What i'm good at</h5>
+                <hr style="width: 80%; border-width: 5px;color: #c9d6df;">
+                <br>
+                <span class="heading" style="font-size: 20px; color: #c9d6df;">JavaScript</span>&emsp;&emsp;
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <br>
+                <span class="heading" style="font-size: 20px; color: #c9d6df;">HTML</span>&emsp;&emsp;&emsp;&emsp;
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div id="footer" style="color: #dbe2ef; text-align: center;">
+            <h6>How to Contact me</h6>
+            <h6>Phone : +62 81319745123</h6>
+            <h6>email : saifulkiram@gmail.com</h6>
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+</html>
